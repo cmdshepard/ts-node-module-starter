@@ -1,6 +1,10 @@
 # ts-node-module-starter
 A starting point for writing a Node.js module (NPM package) in TypeScript.
 
+## System Requirements
+- Node v10.7+
+- Yarn v1.15+
+
 ## Get Started
 To get started, simply clone this repo:
 ```
