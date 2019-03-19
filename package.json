@@ -1,0 +1,22 @@
+{
+  "name": "ts-node-module-starter",
+  "description": "A starting point for writing a Node.js module (NPM package) in TypeScript",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "./node_modules/.bin/tsc -p ."
+  },
+  "repository": "git@github.com:cmdshepard/ts-node-module-starter.git",
+  "author": "Maz Ahmadi <hello@maziar.io>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^11.11.3",
+    "@types/typescript": "^2.0.0"
+  }
+}
